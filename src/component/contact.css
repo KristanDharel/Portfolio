@@ -1,0 +1,22 @@
+.content16{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactMe p{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contactWithme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    /* background-image: url("/public/connect.jpg"); */
+    height: 200px;
+    
+}

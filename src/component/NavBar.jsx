@@ -39,22 +39,22 @@ const NavBar = () => {
                 {/* <a class="nav-link active" aria-current="page"> */}
                 <NavLink
                   className="nav-link active mx-lg-5"
-                  to={"/resume"}
+                  to={"/project"}
                   style={{ marginRight: "25vh" }}
                 >
-                  Resume
+                  Projects
                 </NavLink>
                 {/* </a> */}
               </li>
               <li class="nav-item">
                 {/* <a class="nav-link active" aria-current="page"> */}
-                <NavLink
+                {/* <NavLink
                   className="nav-link active mx-lg-5"
                   to={"/contact"}
                   style={{ marginRight: "25vh" }}
                 >
                   Contact
-                </NavLink>
+                </NavLink> */}
                 {/* </a> */}
               </li>
             </ul>

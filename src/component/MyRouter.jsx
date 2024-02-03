@@ -13,8 +13,9 @@ const MyRouter = () => {
           element={<RegistrationSuccessPage></RegistrationSuccessPage>}
         /> */}
         <Route path="/" element={<AboutMe></AboutMe>} />
-        <Route path="resume" element={<Resume></Resume>} />
+        <Route path="project" element={<Resume></Resume>} />
         <Route path="contact" element={<Contact></Contact>} />
+        <Route path=":id" element={"Page not found ERROR 404"} />
       </Routes>
     </div>
   );

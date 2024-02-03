@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./aboutMe.css";
 import ReactCurvedText from "react-curved-text";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const AboutMe = () => {
   const text = ` S T A C K - E N T H U S I A S T -  M E R N - `;
   const navigate = useNavigate(null);
+  const [download, setDownload] = useState(true);
 
   return (
     <div className="container">
-      <p className="heading">
+      <p className="heading  d-flex justify-content-center align-items-center">
         Full Stack WEB developer.<br></br> with expertise in MERN Stack
       </p>
 
@@ -31,8 +33,8 @@ const AboutMe = () => {
           >
             <img src="facebook .png" className="face" alt="facebook" />
           </a>
-          <a href="www.instagram.com" target="blank">
-            <img src="insta.png" className="insta" alt="insta" />
+          <a href="https://github.com/KristanDharel" target="blank">
+            <img src="github.svg" className="insta" alt="insta" style={{height:"40px"}} />
           </a>
           <a
             href="https://www.linkedin.com/in/kristan-dharel-298607252/"
@@ -42,20 +44,7 @@ const AboutMe = () => {
           </a>
         </ul>
       </div>
-      {/* <div class="card w-50">
-        <div class="card-body">
-          <h5 class="card-title">Lets work together!</h5>
-          <p class="card-text">
-            Join me on my journey and be a part of my innovation.
-          </p>
-          <p class="card-text">
-            I'm available at <a href="">dharelkristan@gmail.com</a>
-          </p>
-          <a href="#" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div> */}
+
       <div className="connect">
         <strong className="together">Let's work together!</strong>
         <br></br>
@@ -63,13 +52,26 @@ const AboutMe = () => {
           Join me on my journey and be a part of my innovation.<br></br>
           Connect with me: <br></br>
         </p>
+        <a
+          href="Resume-Kristan Dharel.pdf"
+          download="Resume-Kristan Dharel.pdf"
+        >
+          <button
+            className="resumecss"
+            onClick={() => {
+              setDownload(!download);
+            }}
+          >
+            {download ? "RESUME" : "Downloaded"}
+          </button>
+        </a>
         <button
           className="contactBtn"
           onClick={() => {
             navigate("/contact");
           }}
         >
-          CONNECT
+          HIRE ME
         </button>
 
         {/* <button className="resume">Download Resume</button> */}
