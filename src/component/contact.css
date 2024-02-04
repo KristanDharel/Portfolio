@@ -1,22 +1,59 @@
-.content16{
-    background-color: blueviolet;
-    height: 300px;
-    width: 300px;
+.contact_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.contact_heading{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contactMe p{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.contactWithme{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
-    /* background-image: url("/public/connect.jpg"); */
-    height: 200px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    /* align-items: top;  */
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    /* align-items: top;  */
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    /* align-items: top;  */
+}
+.img1{
+    /* background-color: red; */
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("/public/github.svg"); */
+    /* height: 200px; */
+    background-repeat: no-repeat;
+}
+.img2{
+    /* background-color: red; */
+    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-image: url("/public/link.png"); */
+    background-repeat: no-repeat;
+}
+.img3{
+    /* background-color: red; */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("/public/jama.jpg"); */
+    background-repeat: no-repeat;
 }

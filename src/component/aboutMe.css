@@ -64,7 +64,7 @@
     height: 3em;
     /* font */
     font-weight: bold ;
-    margin-left: 9%;
+    margin-left: 25%;
 }
 .contactBtn:hover{
     transition: 200ms;

@@ -6,6 +6,10 @@
     height: 100%;
     width: 100%;
 } */
+a {
+    text-decoration: none;
+  }
+  
 .first{
     margin-top: 2%;
     /* display: grid; */
@@ -37,6 +41,7 @@
     align-items: center;
 }
 .container1{
+    color: black;
     cursor: pointer;
     height: 15em;
     width: 30em;
@@ -68,13 +73,21 @@
 }
 
 .container2{
+    color: black;
+    cursor: pointer;
     height: 15em;
     width: 30em;
-    background-color: red;
+    background-image: url("/public/pakau.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30em;
+    object-fit:none;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-display: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
 }
 .heading2{
@@ -99,6 +112,8 @@
 
 .container3{
     cursor: pointer;
+    color: black;
+    
     height: 15em;
     width: 30em;
     background-image: url("/public/port.png");

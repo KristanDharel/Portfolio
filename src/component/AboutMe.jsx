@@ -34,7 +34,12 @@ const AboutMe = () => {
             <img src="facebook .png" className="face" alt="facebook" />
           </a>
           <a href="https://github.com/KristanDharel" target="blank">
-            <img src="github.svg" className="insta" alt="insta" style={{height:"40px"}} />
+            <img
+              src="github.svg"
+              className="insta"
+              alt="insta"
+              style={{ height: "40px" }}
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/kristan-dharel-298607252/"
@@ -65,14 +70,14 @@ const AboutMe = () => {
             {download ? "RESUME" : "Downloaded"}
           </button>
         </a>
-        <button
+        {/* <button
           className="contactBtn"
           onClick={() => {
             navigate("/contact");
           }}
         >
           HIRE ME
-        </button>
+        </button> */}
 
         {/* <button className="resume">Download Resume</button> */}
       </div>
