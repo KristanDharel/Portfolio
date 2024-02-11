@@ -24,7 +24,7 @@ const AboutMe = () => {
         </p>
       </div>
       <div className="expertise">
-        <strong className="exhead">WHERE TO FIND ME:</strong>
+        <strong className="exhead" >WHERE TO FIND ME:</strong>
         <br></br>
         <ul className="skill1">
           <a
